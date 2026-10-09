@@ -15,7 +15,6 @@ class Busca extends React.Component {
   static defaultProps = {
     dica: 'Raio em metros (100 a 5000)'
   }
-
   state = {
     categoria: null,
     raio: '1000',
