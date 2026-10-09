@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white ;
+}
+
+.titulo {
+  color: #1565c0;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.btn-selecionado {
+  background-color: blueviolet ;
+  color: white ;
+
+}
