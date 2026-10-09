@@ -12,4 +12,4 @@ GEOAPIFY_KEY: Será necessario criar uma conta no site: "https://myprojects.geoa
 
 PRIMEUI_LICENSE: Será necessario criar uma conta no site: "https://primeui.store/signin" para obter a chava da API
 
-Para iniciar a aplicação digite "npm run dev" no console, ao iniciar a aplicação o navegador ira pedir permissão para acessar sua localização 
+Para iniciar a aplicação digite "npm run dev" no console, ao iniciar a aplicação o navegador ira pedir permissão para acessar sua localização.
