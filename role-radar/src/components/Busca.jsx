@@ -22,7 +22,22 @@ class Busca extends React.Component {
     erro: null
   }
 
- 
+  onFormSubmit = (evento) => {
+    evento.preventDefault()
+    const { categoria, raio } = this.state
+    if (!categoria) {
+      this.setState({ erro: 'Escolha uma categoria.' })
+      return
+    }
+  
+    const numero = Number(raio)
+    if (!Number.isInteger(numero) || numero < 100 || numero > 5000) {
+      this.setState({ erro: 'Informe um raio inteiro entre 100 e 5000 metros.' })
+      return
+    }
+    this.setState({ erro: null })
+    this.props.onBuscaRealizada(categoria, numero)
+  }
 
   render() {
     return (
